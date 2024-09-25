@@ -1,0 +1,16 @@
+.card {
+    min-width: 100%; /* Default untuk layar kecil */
+    max-width: 900px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        min-width: 670px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        min-width: 100%;
+    }
+}

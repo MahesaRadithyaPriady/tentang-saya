@@ -5,7 +5,7 @@ export default function Login() {
     return (
         <div className="container d-flex justify-content-center align-items-center vh-150">
             <div className="col-12 col-md-8 col-lg-6">
-                <div className={`card ${styles.card}`}>
+                <div className={`card ${styles.card} , card`}>
                     <div className={`card-header ${styles.cardHeader}`}>
                         Bio Data Saya
                     </div>
