@@ -1,0 +1,52 @@
+/* styles/login.module.css */
+
+/* Default Styles for Card */
+.card {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Size Adjustments Based on Screen Width */
+
+/* For small screens (mobile phones) */
+@media (max-width: 576px) {
+    .card {
+        min-width: 280px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* For medium screens (tablets) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .card {
+        min-width: 350px;
+        max-width: 85%;
+    }
+}
+
+/* For large screens (desktops) */
+@media (min-width: 768px) {
+    .card {
+        min-width: 450px;
+        max-width: 600px;
+    }
+}
+
+/* For extra-large screens (large desktops) */
+@media (min-width: 1200px) {
+    .card {
+        min-width: 500px;
+        max-width: 700px;
+    }
+}
+
+/* Optional styles for the card header */
+.card-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+}
